@@ -1,0 +1,24 @@
+{
+	"name" : "MiM Music in Motion",
+	"author" : "Robert Ek",
+	"description" : "Motion bl bl bl",
+	"homepatcher" : "MiM_Overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "6.1.7",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "10.7.x"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "7"
+		}
+
+	}
+,
+	"tags" : [ "analysis", "synthesis", "externals", "descriptors" ],
+	"version" : "12-2020",
+	"website" : "http://www.musicinmotion.com"
+}

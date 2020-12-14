@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 948.0, 213.0, 413.0, 460.0 ],
+		"rect" : [ 51.0, 170.0, 418.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 456.75, 254.0, 73.0, 22.0 ],
+					"patching_rect" : [ 456.75, 264.3416748046875, 73.0, 22.0 ],
 					"text" : "slide 10. 10."
 				}
 
@@ -965,7 +965,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.75, 401.52587890625, 21.0, 18.0 ],
+					"patching_rect" : [ 510.75, 411.8675537109375, 21.0, 18.0 ],
 					"text" : "ct"
 				}
 
@@ -981,7 +981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.75, 401.52587890625, 54.0, 23.0 ]
+					"patching_rect" : [ 456.75, 411.8675537109375, 54.0, 23.0 ]
 				}
 
 			}
@@ -994,7 +994,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 456.75, 377.52587890625, 63.0, 23.0 ],
+					"patching_rect" : [ 456.75, 387.8675537109375, 63.0, 23.0 ],
 					"text" : "line 0. 0."
 				}
 
@@ -1008,7 +1008,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.75, 343.52587890625, 101.0, 23.0 ],
+					"patching_rect" : [ 456.75, 353.8675537109375, 101.0, 23.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -1023,7 +1023,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 538.75, 294.02587890625, 31.0, 50.0 ],
+					"patching_rect" : [ 538.75, 304.3675537109375, 31.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 177.14285714285711, 346.0, 30.0, 50.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1055,7 +1055,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 456.75, 283.02587890625, 63.0, 50.0 ],
+					"patching_rect" : [ 456.75, 293.3675537109375, 63.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.752129142857086, 346.0, 63.0, 50.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1087,7 +1087,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.25, 385.52587890625, 23.0, 23.0 ],
+					"patching_rect" : [ 384.25, 395.8675537109375, 23.0, 23.0 ],
 					"text" : "t l"
 				}
 
@@ -1101,7 +1101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.25, 283.02587890625, 45.0, 18.0 ],
+					"patching_rect" : [ 369.25, 293.3675537109375, 45.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.14285714285711, 344.0, 45.0, 18.0 ],
 					"text" : "Quality"
@@ -1117,7 +1117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.25, 343.52587890625, 68.0, 23.0 ],
+					"patching_rect" : [ 384.25, 353.8675537109375, 68.0, 23.0 ],
 					"text" : "quality $1"
 				}
 
@@ -1131,7 +1131,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 369.25, 304.02587890625, 50.0, 15.0 ],
+					"patching_rect" : [ 369.25, 314.3675537109375, 50.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.14285714285711, 364.0, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1161,7 +1161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.75, 434.52587890625, 102.0, 23.0 ],
+					"patching_rect" : [ 456.75, 444.8675537109375, 102.0, 23.0 ],
 					"text" : "pitchshiftcent $1"
 				}
 
@@ -1178,8 +1178,6 @@
 					"patching_rect" : [ 384.25, 528.890625, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 0.830278166937376 ],
-						"pitchshiftcent" : [ -322 ],
 						"quality" : "basic",
 						"reportlatency" : 0,
 						"usecents" : 0
@@ -1385,7 +1383,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.75, 226.44775390625, 165.0, 22.0 ],
+					"patching_rect" : [ 456.75, 236.7894287109375, 165.0, 22.0 ],
 					"text" : "scale -180. 180. -1500. 1500."
 				}
 
@@ -1402,7 +1400,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 731.0, 145.380126953125, 462.336562999999956, 343.375 ],
+					"patching_rect" : [ 362.081718500000079, 226.44775390625, 270.336562999999842, 330.265625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.14285714285711, 343.0, 231.0, 58.0 ],
 					"proportion" : 0.39,
@@ -1423,7 +1421,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.58001708984375, 241.44775390625, 246.8399658203125, 270.68341064453125 ],
+					"patching_rect" : [ 628.58001708984375, 26.240169677734372, 73.8399658203125, 86.890994873046878 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 297.628837089843728, 392.567626953125, 104.41998291015625, 54.0 ],
 					"proportion" : 0.39,
@@ -1913,8 +1911,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MiM_recieve.maxpat",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/extras/MiM",
-				"patcherrelativepath" : "../extras/MiM",
+				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/GitHub/AIML/abstractions",
+				"patcherrelativepath" : "../../../../GitHub/AIML/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1973,8 +1971,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1984,8 +1982,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1994,7 +1992,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2004,8 +2002,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2031,7 +2029,6 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2041,6 +2038,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontsize" : [ 9.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -2114,8 +2112,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -2,7 +2,7 @@
 	"name" : "MiM Music in Motion",
 	"author" : "Robert Ek",
 	"description" : "Motion bl bl bl",
-	"homepatcher" : "MiM_Overview.maxpat",
+	"homepatcher" : "MiM_overview.maxpat",
 	"max_version_max" : "none",
 	"max_version_min" : "6.1.7",
 	"os" : 	{
@@ -20,5 +20,5 @@
 ,
 	"tags" : [ "analysis", "synthesis", "externals", "descriptors" ],
 	"version" : "12-2020",
-	"website" : "http://www.musicinmotion.com"
+	"website" : "http://www.musicinmotion.art"
 }

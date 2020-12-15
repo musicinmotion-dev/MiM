@@ -191,6 +191,7 @@
 , 							{
 								"box" : 								{
 									"button" : 1,
+									"fontname" : "Arial",
 									"htabcolor" : [ 0.141176470588235, 0.529411764705882, 0.607843137254902, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "tab",
@@ -457,19 +458,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 3,
-									"fontsize" : 24.0,
-									"id" : "obj-64",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.5, 54.0, 178.0, 33.0 ],
-									"text" : "MiM tutorials"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"hidden" : 1,
 									"id" : "obj-2",
 									"maxclass" : "newobj",
@@ -497,15 +485,15 @@
 , 							{
 								"box" : 								{
 									"background" : 1,
-									"fontface" : 3,
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 36.0,
 									"id" : "obj-21",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 12.0, 281.0, 47.0 ],
-									"text" : "MiM Overview",
+									"patching_rect" : [ 16.0, 12.0, 262.0, 47.0 ],
+									"text" : "MiM Tutorials",
 									"varname" : "HelpTitle"
 								}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 79.0, 728.0, 354.0 ],
+		"rect" : [ 868.0, 153.0, 728.0, 354.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -925,8 +925,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1013,7 +1013,7 @@
 				"box" : 				{
 					"comment" : "Calibration values",
 					"id" : "obj-8",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2893,8 +2893,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3287,7 +3287,7 @@
 					"patching_rect" : [ 822.920059000000037, 604.192626953125, 59.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 451.174247796874965, 290.87237548828125, 77.0, 20.0 ],
-					"text" : "X (pitch)"
+					"text" : "Y (pitch)"
 				}
 
 			}
@@ -3303,7 +3303,7 @@
 					"patching_rect" : [ 766.920059000000151, 604.192626953125, 53.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.658767810546806, 290.87237548828125, 76.0, 20.0 ],
-					"text" : "Y (roll)"
+					"text" : "Z (roll)"
 				}
 
 			}
@@ -3319,7 +3319,7 @@
 					"patching_rect" : [ 711.336852000000022, 604.192626953125, 76.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.572380121093715, 290.87237548828125, 76.0, 20.0 ],
-					"text" : "Z (heading)"
+					"text" : "X (heading)"
 				}
 
 			}
@@ -3459,7 +3459,7 @@
 				"box" : 				{
 					"comment" : "Button 2",
 					"id" : "obj-107",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3648,7 +3648,7 @@
 				"box" : 				{
 					"comment" : "on/off",
 					"id" : "obj-48",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3746,7 +3746,7 @@
 				"box" : 				{
 					"comment" : "Gyroscope data (3 dim)",
 					"id" : "obj-43",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3788,7 +3788,7 @@
 				"box" : 				{
 					"comment" : "Accelerometer data (3 dim)",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3800,7 +3800,7 @@
 				"box" : 				{
 					"comment" : "Magnetometer data (3 dim)",
 					"id" : "obj-29",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3812,7 +3812,7 @@
 				"box" : 				{
 					"comment" : "Quaternions",
 					"id" : "obj-28",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3824,7 +3824,7 @@
 				"box" : 				{
 					"comment" : "Euler angles",
 					"id" : "obj-27",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3836,7 +3836,7 @@
 				"box" : 				{
 					"comment" : "Button 1",
 					"id" : "obj-26",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4450,7 +4450,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-52", 1 ]
 				}
 
@@ -4458,7 +4458,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-52", 2 ]
 				}
 
@@ -4466,7 +4466,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-52", 1 ]
 				}
 
@@ -4482,7 +4482,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-52", 2 ]
 				}
 
@@ -4696,6 +4696,30 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "offset_quat.js",
+				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
+				"patcherrelativepath" : "../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "offset_euler.js",
+				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
+				"patcherrelativepath" : "../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sadam.udpReceiver.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sadam.fromBytes.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -4762,8 +4786,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

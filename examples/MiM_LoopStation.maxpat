@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 168.0, 126.0, 437.0, 559.0 ],
+		"rect" : [ 523.0, 105.0, 437.0, 559.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"patching_rect" : [ 39.91998291015625, 66.5, 129.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 108.41998291015625, 101.799980000000005, 61.0, 40.0 ],
+					"presentation_rect" : [ 108.41998291015625, 101.799980000000005, 63.0, 40.0 ],
 					"text" : "detection on/off press button 1",
 					"textjustification" : 2
 				}
@@ -58,7 +58,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-66",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -472,7 +471,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -955,8 +953,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -966,8 +964,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1097,8 +1095,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1536,7 +1534,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "bang", "", "bang" ],
+					"outlettype" : [ "", "", "", "", "", "bang", "bang", "" ],
 					"patching_rect" : [ 344.000000000000057, 10.0, 105.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 116.799980000000005, 81.41998291015625, 22.0 ],
@@ -1906,7 +1904,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-100",
-					"items" : [ "None", ",", "Externa hörlurar", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2719,8 +2717,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MiM_recieve.maxpat",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/GitHub/AIML/abstractions",
-				"patcherrelativepath" : "../../../../GitHub/AIML/abstractions",
+				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/extras/MiM",
+				"patcherrelativepath" : "../extras/MiM",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2782,8 +2780,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -2793,8 +2791,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -2924,8 +2922,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

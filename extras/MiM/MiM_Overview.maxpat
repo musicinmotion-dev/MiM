@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 54.0, 98.0, 731.0, 657.0 ],
+		"rect" : [ 126.0, 102.0, 731.0, 657.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 54.0, 124.0, 731.0, 631.0 ],
+						"rect" : [ 126.0, 128.0, 731.0, 631.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,37 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 42,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 309.0, 297.0, 150.0, 570.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 15,
+									"presentation_rect" : [ 301.0, 298.0, 365.0, 208.0 ],
+									"text" : "erg df shrhsth trh srth srt  rthsrth rh srhsrht rsth  srth srth  shtsthsrth srth srth  srthsrthsrth srth srthsrth srth srht srh th t srth srthsrth srthsrth srht srthsrthsrth srth srth srthsrth srthsrthsrthsr rthrth srth sthsrth srtrshtrtshh rtshsrth srth srhathsrthsrth srthsrthr srth rsthsrthsrh srthsrthsrth srthsrthsrth srhtsrth srthsrtrhsr srtherg df shrhsth trh srth srt  rthsrth rh srhsrht rsth  srth srth  shtsthsrth srth srth  srthsrthsrth srth srthsrth srth srht srh th t srth srthsrth srthsrth srht srthsrthsrth srth srth srthsrth srthsrthsrthsr rthrth srth sthsrth srtrshtrtshh rtshsrth srth srhathsrthsrth srthsrthr srth rsthsrthsrh srthsrthsrth srthsrthsrth srhtsrth srthsrtrhsr srtherg df shrhsth trh srth srt  rthsrth rh srhsrht rsth  srth srth  shtsthsrth srth srth  srthsrthsrth srth srthsrth srth srht srh th t srth srthsrth srthsrth srht srthsrthsrth srth srth srthsrth srthsrthsrthsr rthrth srth sthsrth srtrshtrtshh rtshsrth srth srhathsrthsrth srthsrthr srth rsthsrthsrh srthsrthsrth srthsrthsrth srhtsrth srthsrtrhsr srth"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"autofit" : 1,
+									"forceaspect" : 1,
+									"id" : "obj-3",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 478.0, 111.0, 100.0, 66.734693877551024 ],
+									"pic" : "MiMbw@0,3x.jpg",
+									"presentation" : 1,
+									"presentation_rect" : [ 301.0, 32.0, 365.0, 243.581632653061234 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 									"id" : "obj-38",
@@ -671,7 +702,14 @@
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "MiMbw@0,3x.jpg",
+				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/docs/Images",
+				"patcherrelativepath" : "../../docs/Images",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 

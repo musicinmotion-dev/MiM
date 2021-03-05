@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 523.0, 105.0, 437.0, 559.0 ],
+		"rect" : [ 307.0, 353.0, 441.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,181 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 43.0, 527.0, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.0, 0.831712245941162, 0.0, 1.0 ],
+					"activetextcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"activetextoncolor" : [ 0.999886095523834, 1.0, 0.999839842319489, 1.0 ],
+					"bgoncolor" : [ 0.0, 0.831712245941162, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 14.0,
+					"id" : "obj-31",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 43.0, 469.404083757812487, 64.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 137.944392910156239, 116.799980000000005, 67.951180000000022, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[1]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "readme",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"textoffcolor" : [ 0.999886095523834, 1.0, 0.999839842319489, 1.0 ],
+					"texton" : "audio on",
+					"varname" : "live.text[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 596.0, 489.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 197.0, 223.0, 150.0, 34.0 ],
+									"text" : "text\n"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"hidden" : 1,
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 243.0, 72.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 43.0, 556.0, 64.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p ReadMe"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 43.0, 499.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 461.0, 99.5, 33.0, 22.0 ],
+					"text" : "- 30."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"format" : 6,
+					"id" : "obj-13",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 461.0, 134.4093017578125, 88.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 129.41998291015625, 274.4093017578125, 75.0, 35.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-73",
 					"linecount" : 2,
@@ -49,9 +224,9 @@
 					"patching_rect" : [ 39.91998291015625, 66.5, 129.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 108.41998291015625, 101.799980000000005, 63.0, 40.0 ],
+					"presentation_rect" : [ 58.0, 271.4093017578125, 63.0, 40.0 ],
 					"text" : "detection on/off press button 1",
-					"textjustification" : 2
+					"textjustification" : 0
 				}
 
 			}
@@ -464,7 +639,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 303.0, 112.1541748046875, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.41998291015625, 104.799980000000005, 34.0, 34.0 ]
+					"presentation_rect" : [ 25.0, 274.4093017578125, 34.0, 34.0 ]
 				}
 
 			}
@@ -498,7 +673,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1055.0, 261.0, 571.0, 619.0 ],
+						"rect" : [ 152.0, 380.0, 571.0, 619.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -953,9 +1128,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -964,9 +1139,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -975,6 +1150,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -985,8 +1161,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1012,6 +1187,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1021,8 +1197,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1904,7 +2079,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-100",
-					"items" : [ "None", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Externa hörlurar", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2246,6 +2421,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
@@ -2327,6 +2509,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -2399,7 +2588,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 2 ],
+					"order" : 1,
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -2428,6 +2626,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
 					"order" : 0,
 					"source" : [ "obj-29", 0 ]
@@ -2446,6 +2651,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -2707,6 +2919,7 @@
 		"parameters" : 		{
 			"obj-128" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-29" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-31" : [ "live.text[1]", "live.text", 0 ],
 			"obj-96" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 
@@ -2717,21 +2930,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MiM_recieve.maxpat",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/extras/MiM",
+				"bootpath" : "~/Documents/Max 8/Packages/MiM/extras/MiM",
 				"patcherrelativepath" : "../extras/MiM",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "offset_quat.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/MiM/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "offset_euler.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/MiM/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -2780,9 +2993,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2791,9 +3004,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2802,6 +3015,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -2812,8 +3026,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2839,6 +3052,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2848,8 +3062,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

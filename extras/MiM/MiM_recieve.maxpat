@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 868.0, 153.0, 728.0, 354.0 ],
+		"rect" : [ 564.0, 118.0, 729.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 70.054382000000061, 225.5, 113.0, 22.0 ],
+					"patching_rect" : [ 70.054382000000061, 243.5, 113.0, 22.0 ],
 					"text" : "metro 10 @active 1"
 				}
 
@@ -925,8 +925,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -944,8 +944,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1013,7 +1013,7 @@
 				"box" : 				{
 					"comment" : "Calibration values",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1064,7 +1064,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.288147000000038, 89.0, 90.0, 22.0 ],
+					"patching_rect" : [ 276.288147000000038, 121.163749999999993, 90.0, 22.0 ],
 					"text" : "loadmess 6666"
 				}
 
@@ -2893,8 +2893,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2912,8 +2912,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2941,7 +2941,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "int" ],
-					"patching_rect" : [ 276.288147000000038, 225.5, 145.0, 22.0 ],
+					"patching_rect" : [ 276.288147000000038, 243.5, 145.0, 22.0 ],
 					"text" : "sadam.udpReceiver 6666"
 				}
 
@@ -3414,8 +3414,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.324097000000052, 148.5, 72.296265000000005, 22.0 ],
-					"text" : "999999999"
+					"patching_rect" : [ 491.324097000000052, 164.5, 42.0, 22.0 ],
+					"text" : "99999"
 				}
 
 			}
@@ -3426,7 +3426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 491.324097000000052, 89.0, 93.0, 22.0 ],
+					"patching_rect" : [ 491.324097000000052, 94.163749999999993, 93.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -3438,7 +3438,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 491.324097000000052, 116.0, 71.0, 22.0 ],
+					"patching_rect" : [ 491.324097000000052, 121.163749999999993, 71.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -3459,7 +3459,7 @@
 				"box" : 				{
 					"comment" : "Button 2",
 					"id" : "obj-107",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3648,7 +3648,7 @@
 				"box" : 				{
 					"comment" : "on/off",
 					"id" : "obj-48",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3721,7 +3721,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 772.36915599999918, 188.5, 48.0, 20.0 ],
+					"patching_rect" : [ 781.36915599999918, 188.5, 48.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.572380121093715, 18.5, 48.0, 20.0 ],
 					"text" : "200 ms"
@@ -3735,7 +3735,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 779.369155999999407, 243.5, 40.435226000000171, 20.0 ],
+					"patching_rect" : [ 788.369155999999407, 243.5, 40.435226000000171, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.572380121093715, 129.440624999999983, 39.220512445312465, 20.0 ],
 					"text" : "0 ms"
@@ -3746,7 +3746,7 @@
 				"box" : 				{
 					"comment" : "Gyroscope data (3 dim)",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3763,7 +3763,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.206538249999312, 164.5, 95.513309750000644, 33.0 ],
+					"patching_rect" : [ 684.206538249999312, 164.5, 95.513309750000644, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.05560302734375, 5.5, 144.0, 20.0 ],
 					"text" : "update frequency"
@@ -3788,7 +3788,7 @@
 				"box" : 				{
 					"comment" : "Accelerometer data (3 dim)",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3800,7 +3800,7 @@
 				"box" : 				{
 					"comment" : "Magnetometer data (3 dim)",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3812,7 +3812,7 @@
 				"box" : 				{
 					"comment" : "Quaternions",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3824,7 +3824,7 @@
 				"box" : 				{
 					"comment" : "Euler angles",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3836,7 +3836,7 @@
 				"box" : 				{
 					"comment" : "Button 1",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3899,7 +3899,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.288147000000038, 157.0, 50.0, 22.0 ]
+					"patching_rect" : [ 276.288147000000038, 164.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -3912,7 +3912,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.288147000000038, 195.5, 48.0, 22.0 ],
+					"patching_rect" : [ 276.288147000000038, 213.5, 48.0, 22.0 ],
 					"text" : "port $1"
 				}
 
@@ -3950,7 +3950,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 591.795058999999242, 279.5, 69.0, 22.0 ],
+					"patching_rect" : [ 591.795058999999242, 291.203125, 69.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.05560302734375, 21.5, 88.0, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3966,7 +3966,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 591.795058999999242, 211.0, 37.0, 22.0 ],
+					"patching_rect" : [ 591.795058999999242, 202.5, 37.0, 22.0 ],
 					"text" : "timer"
 				}
 
@@ -3981,7 +3981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.206538249999312, 202.5, 98.0, 61.0 ],
+					"patching_rect" : [ 684.206538249999312, 202.5, 98.0, 61.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.05560302734375, 21.5, 171.2962646484375, 125.793749999999989 ],
 					"setminmax" : [ 0.0, 200.0 ],
@@ -4109,7 +4109,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 526.824097000000052, 144.5, 285.788147000000038, 144.5 ],
+					"midpoints" : [ 526.824097000000052, 154.5, 285.788147000000038, 154.5 ],
 					"source" : [ "obj-115", 1 ]
 				}
 
@@ -4124,7 +4124,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 500.824097000000052, 191.75, 285.788147000000038, 191.75 ],
+					"midpoints" : [ 500.824097000000052, 202.75, 285.788147000000038, 202.75 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -4132,7 +4132,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 285.788147000000038, 301.0, 577.0, 301.0, 577.0, 152.0, 601.295058999999242, 152.0 ],
+					"midpoints" : [ 285.788147000000038, 278.0, 578.0, 278.0, 578.0, 152.0, 601.295058999999242, 152.0 ],
 					"order" : 0,
 					"source" : [ "obj-119", 0 ]
 				}
@@ -4141,6 +4141,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"midpoints" : [ 285.788147000000038, 278.0, 79.554382000000061, 278.0 ],
 					"order" : 1,
 					"source" : [ "obj-119", 0 ]
 				}
@@ -4561,6 +4562,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
+					"order" : 0,
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"midpoints" : [ 500.824097000000052, 89.0, 256.0, 89.0, 256.0, 228.0, 79.554382000000061, 228.0 ],
+					"order" : 1,
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -4674,7 +4685,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 601.295058999999242, 272.0, 667.0, 272.0, 667.0, 193.0, 684.706538249999312, 193.0 ],
+					"midpoints" : [ 601.295058999999242, 277.0, 672.0, 277.0, 672.0, 193.0, 693.706538249999312, 193.0 ],
 					"order" : 0,
 					"source" : [ "obj-96", 0 ]
 				}
@@ -4696,30 +4707,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "offset_quat.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
-				"patcherrelativepath" : "../../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "offset_euler.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
-				"patcherrelativepath" : "../../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sadam.udpReceiver.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sadam.fromBytes.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -4786,8 +4773,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4805,8 +4792,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -1,3 +1,0 @@
-<br />
-$ git config --global core.excludesfile ~/.gitignore<br />
-$ echo *.DS_Store &gt;&gt; ~/.gitignore<br />

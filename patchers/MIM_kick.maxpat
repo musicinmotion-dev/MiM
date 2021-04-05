@@ -54,7 +54,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -151,7 +150,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.0, 518.5, 67.0, 22.0 ],
-					"text" : "0.004504"
+					"text" : "0.002237"
 				}
 
 			}

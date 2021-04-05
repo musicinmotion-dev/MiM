@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 283.0, 236.0, 694.0, 648.0 ],
+		"rect" : [ 440.0, 79.0, 715.0, 661.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 283.0, 262.0, 694.0, 622.0 ],
+						"rect" : [ 440.0, 105.0, 715.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -89,12 +89,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 15,
+									"linecount" : 21,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 336.0, 249.0, 321.0, 208.0 ],
-									"text" : "The MiM bell allows for sensing movement, processing and wireless transmission through WiFi. It is developed as an essential brick towards creating novel motion-based musical instruments and body-based media interaction.\n\nThe MiM bell embeds a Bosch sensortech 9 DOF sensor with 3 axis accelerometer, 3 axis gyroscope and 3 axis magnetometer, all 16 bit. The data are sent wirelessly (WiFi) using the OSC protocol.\n\nThe core of the board is a Texas Instrument WiFi module with a 32 bit Cortex ARM processor that execute the program and deals with the Ethernet / WAN stack. It is compatible with TI’s Code Composer and with Energia, a port of the Arduino environment for TI processors."
+									"patching_rect" : [ 272.0, 290.5, 393.0, 288.0 ],
+									"text" : "Replacing your clarinet bell with Music in Motion MiM v1.0 will turn your clarinet into an electronically extended music instrument with new and improved ways for composing and performing music. MiM is a sensor-based system for gesture aided musical expressions that can be used to process sound, video, lighting, etc. MiM is the result of an interdisciplinary scientific and artistic research project at Luleå University of Technology.\n\nWe wanted to use musician’s movements to achieve a deeper interaction with electroacoustic music. This interaction can also be extended to the spatial aspect, where the musician can be said to be in a context of musical activities and where the clarinet’s position in relation to these becomes important. In that sense, the concert hall’s physical extent becomes part of the music, that is, the music is placed not only in a concert hall, but rather in a spatial environment.\n\nWe’ve designed a clarinet bell with a 9DOF sensor equipped with onboard sensor fusion. Using a combination of different sensor data, such as, accelerometer and gyroscope combined with pitch readings, we’ve created a system that can use the clarinet players movement qualities to create new audiovisual expressions."
 								}
 
 							}
@@ -107,7 +107,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 336.0, 22.0, 320.0, 213.551020408163254 ],
+									"patching_rect" : [ 272.0, 22.0, 384.0, 256.26122448979595 ],
 									"pic" : "MiMbw@0,3x.jpg"
 								}
 
@@ -177,7 +177,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.5, 478.0, 95.0, 22.0 ],
+									"patching_rect" : [ 133.5, 621.0, 95.0, 22.0 ],
 									"text" : "append .maxpat"
 								}
 
@@ -190,7 +190,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.5, 526.5, 50.0, 22.0 ],
+									"patching_rect" : [ 133.5, 648.0, 50.0, 22.0 ],
 									"text" : "load $1"
 								}
 
@@ -203,7 +203,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.5, 568.989745999999968, 53.0, 22.0 ],
+									"patching_rect" : [ 133.5, 686.989745999999968, 53.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -219,8 +219,8 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 35.0, 217.0, 216.0, 240.0 ],
-									"tabs" : [ "MiM_SpaceGong", "MiM_LoopStation", "MiM_Bender", "MiM_Minimalizer", "MiM_WahWah", "MiM_Scratch" ]
+									"patching_rect" : [ 35.0, 216.5, 216.0, 316.0 ],
+									"tabs" : [ "MiM_SpaceGong", "MiM_LoopStation", "MiM_Bender", "MiM_Minimalizer", "MiM_WahWah", "MiM_Scratch", "MiM_MidiCC", "MiM_toVST" ]
 								}
 
 							}
@@ -290,7 +290,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 694.0, 622.0 ],
+						"rect" : [ 0.0, 26.0, 715.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -616,7 +616,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 694.0, 622.0 ],
+						"rect" : [ 0.0, 26.0, 715.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -815,7 +815,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 694.0, 622.0 ],
+						"rect" : [ 0.0, 26.0, 715.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

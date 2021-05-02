@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 67.0, 120.0, 1234.0, 749.0 ],
+		"rect" : [ 34.0, 79.0, 1063.0, 838.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.0, 422.0, 112.0, 21.0 ],
+					"text" : "write passage21.json"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "bang", "", "bang" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 35.999969, 63.0, 92.5, 21.0 ],
 					"text" : "MiM_recieve"
 				}
@@ -236,7 +248,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -817,7 +829,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -949,13 +961,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
 									"id" : "obj-19",
-									"linecount" : 9,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 53.5, 324.0, 125.0, 119.0 ],
-									"text" : "mubu.record gmm data @predef yes @samplerate 100 @matrixcols 3 @maxsize 1000 @info gui \"interface multiwave, bounds -1. 1., colormode rainbow, shape lines\""
+									"patching_rect" : [ 53.5, 324.0, 818.0, 21.0 ],
+									"text" : "mubu.record gmm data @predef yes @samplerate 100 @matrixcols 4 @maxsize 1000 @info gui \"interface multiwave, bounds -1. 1., colormode rainbow, shape lines\""
 								}
 
 							}
@@ -1077,7 +1088,7 @@
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 0.0, 1.0 ],
+									"domain_bounds" : [ 0.0, 1980.0 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -1129,7 +1140,6 @@
 									"toolbar_size" : 30,
 									"toolbar_visible" : 1,
 									"useplaceholders" : 1,
-									"verbose" : 1,
 									"windresize" : 0
 								}
 
@@ -1333,7 +1343,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 35.999969, 186.0, 131.0, 67.0 ],
 					"setstyle" : 1,
-					"size" : 3,
+					"size" : 4,
 					"slidercolor" : [ 0.0381, 0.27339, 0.458347, 1.0 ]
 				}
 
@@ -1507,7 +1517,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-23", 4 ]
+					"source" : [ "obj-23", 3 ]
 				}
 
 			}
@@ -1536,6 +1546,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1642,21 +1659,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MiM_recieve.maxpat",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/extras/MiM",
+				"bootpath" : "~/Documents/Max 8/Packages/MiM/extras/MiM",
 				"patcherrelativepath" : "../extras/MiM",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "offset_quat.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "offset_euler.js",
-				"bootpath" : "~/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/MiM/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -1671,14 +1681,6 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sadam.udpReceiver.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sadam.fromBytes.mxo",
 				"type" : "iLaX"
 			}
  ],

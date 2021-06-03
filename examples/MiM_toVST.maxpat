@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 70.0, 459.0, 817.0 ],
+		"rect" : [ 294.0, 74.0, 460.0, 820.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,215 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-117",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1154.0, 74.904083757812487, 37.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.736195883928701, 353.5, 37.0, 23.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-115",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1105.0, 53.081874999999997, 33.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.736195883928701, 393.5, 33.0, 23.0 ],
+					"text" : "plug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1032.0, 154.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-90",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1032.0, 551.0, 39.0, 23.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"fontsize" : 13.0,
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 1140.0, 595.0, 127.0, 23.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[5]",
+							"parameter_shortname" : "vst~[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "vst~",
+					"varname" : "vst~[1]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1140.0, 551.0, 127.0, 23.0 ],
+					"text" : "prepend plug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-95",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1056.0, 466.0, 80.0, 23.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-103",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1048.0, 259.5, 96.0, 23.0 ],
+					"text" : "listvst3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-104",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1067.0, 290.5, 85.0, 23.0 ],
+					"text" : "listau"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-105",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1032.0, 226.5, 89.0, 23.0 ],
+					"text" : "listvst"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-107",
+					"items" : [ "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1032.0, 512.0, 235.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1032.0, 428.0, 155.0, 23.0 ],
+					"text" : "prepend append"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-109",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1032.0, 373.0, 199.0, 23.0 ],
+					"text" : "route plug_vst plug_au plug_vst3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1032.0, 339.0, 101.0, 23.0 ],
+					"text" : "vstscan"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "newobj",
@@ -160,8 +369,69 @@
 					}
 ,
 					"saved_object_attributes" : 					{
+						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "SonoBus.vst3",
+							"plugindisplayname" : "SonoBus",
+							"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/SonoBus.vst3",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"sliderorder" : [  ],
+							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"blob" : "3076.VMjLgr+B...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HiL0DiKSgCagUWRTMVdEoWXOEjKtDDQBQUPIUETMEDTtHjZFkkKD4xPEAkUYwFMVkkdEY0X5giQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3BQt.UQpQUPvPjKAgDTZoVPP4xRT4RVqkEagsVTsgELYYjKwTjQgASUF4RPp4RPt3hKtXlLpgET3LjKPUjZTEDLD4RPHAkVpEDTtzDUtj0ZYEiXqQiQYcWUWgkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtPjKA4BUAkTUP0TPP4hPpYTVtPDTAUDTrIFMAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjcDUDTVQFcEYUXu0DahsVSWg0bAcTXuQSLY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPDEUPtUkUXg2cVgkdUwVXos1QisVSGMlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKt3hKtTETRUDUS4BQl4xaQYjKAYFTA8FMwj0YqwVXtf0UXIWUWkkKDAkPD4hKt3hK2rxJqjySt3RUPIUQTMkKDYlKuEkQtDzLPEzazXUX0QiUgUGMwDlcEwVXtf0UXIWUWkkKDAkPD4hKt3hKt3hKt3hKt3RUPIUQTMkKDYlKuEkQtDjbPEzazXUX0QiQhcFMVwjKXcEVxU0UY4BQPIDQt3hKt3hKt3hKqTmKtTETRUDUS4BQl4xaQYjKAIGTA8FMVEVczXjXmQCaL4BVWgkbUcUVtPDTBQjKt3hKt3hKt3xJO4hKUAkTEQ0TtPjYt7VTF4RPtDUPyUjUZQWRWkULUwlXnEkUXMWPG4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKSQETgc1ZrEFdUw1XqkTaXsFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPQTQ5YEVuQCahsVVWkEdIYTXqk0UYIWPlM1Y2Y0XqEDTtjDTt3hKt3haMokKxshKtPUPIUETMEDTtHjZFkkKDAEQEomUX8FMrI1ZYcUV3kjUgUWTVkkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjKEUjdVg0azvlXqk0UYgWRFIFdUYTVqcmUXQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKM4RPtPUPIUETMEDTtHjZFkkKD4BQEomUX8FMrI1ZYcUV3kTLh81aWkkKXcEVxU0UY4BQPIDQt3hKt3hdLkGS27jKtTETRUDUS4BQl4xaQYjKAYGTAMWQwHldqwVXyU0QisVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDA0PEomUXkWTWEVczDiX0cWLg4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWRWkUZYcUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWSWkEcQYUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP1AUPyUkQisFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPITQ5YUV5MlUX8FMF4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKOQETgsVTWoUdIcUVogCahoVUFkkKXcEVxU0UY4BQPIDQt3hKt3hKt3hKq7jKtTETRUDUS4BQl4xaQYjKA4FTAMWUFMldUYUX1giQtDSQFEFLUYjKAolKA4hKt3hKt3hKYEDQt.UQpQUPvPjKAgDTZoVPP4xSTYlXq0TLgQGMVkUZQcTXm0zQi4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UP4UEagoVSFo0YzvVXqcWLh4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP2.UP4UEagoVVVokbUYEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PEwzUYQWTVE1ZQcEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDAUPEI1UYoWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKlQ0ZMYUVzEkLPUGMrE1ZMYzXugCagkWPt3hKTQDY5kzUXMUTWgkdUYjKAIFTUkWUVUkZAcDU0kzQi4BQPETPt3hKt3hcP4VQrEVaUYEUvTjQgYDNrIVP2YTXtPDTtLDTTkEaEY0XxEUaTsVSwDFdQYkVzMVLSYWTWoUczDiXtPDTAEDQt3hKt3RTqkkUXAycFMlTUECV0kzQY8FMwjkQ3vlXyUjQi4BQPETPH4hKt3hKQsVVVgEL2YzXRUULXUWRGk0azDSVBslQikWPUkEdMUEVyEzQgsVPP4RQD4BQt3hKtPTUrk0YUcTX5kTUYkFNrIlZQQkV3EDTtjFU1sTUMcUV30jLKgGNrg0ZIczXqMWLKQDNwfELvXUVzEkLhUGSvDFc3vFTvzzQtL0cVokZUwlXSQiUXYWTvDVS3X0X4UkQtDDQ14hKpoVX1U0QiUTVrk0ZMYzX4EjKtDDT1AUcvXjX3UULhkGNrI1TQcEV5UkQtDjXPkEcEwFVxUkQY4BQP4xPPcjV3UULh4FNFElZAAkKIAkKt3hKt3hKt3BStrzUXo2ZwDlKDAkPD4hKt3hKt3hKt3BTmE0QicVSwnkKDAkPD4hKt3hKt3hKPIDT3UkQgsVQwH1ZAAkKIAkKt3hKt3hKt3RUt.iUXEWUVMlciYEVuQiQtDjZtDjKt3hKt3hKt.kKTgELQISXyUTLZsVUGIlKDAkKB4BTQMSPWgEcQYUV30TQicVTWkkKDYWPqQiUXg1cVkkZAAkKAwjKi4VRWkUdmESXxEkQtDjZtDjKt3hKt3hKt3TPxI1YQckV0EDTtjDTt3hKt3hKt3hKt3RQFMldEECVwEDTtjDTt3hKt3hKt3hK2rBRWkkbUYEV4UkQtDjZtDjKt3hKt3hKt7VPTE1YyYUVvDjLYc1ZrElKDAkPD4hKt3hKt3hKt3hKmU0QiUGLVgUbUY0X1EDTtDDRt3BSqYUXuE0UYgWSEM1YQcUVtPjcAsFMVgEZ2YUVpEDTtDDRtLlaIcUV4cVLgIWTF4RPp4RPt3hKt3hKt3hcqDmXmE0UZUWPP4RRP4hKt3hKt3hKtPjKEYzX5UTLXEWPP4RRP4hKt3hKPcVbGc1JHcUVxUkUXkWUF4RPp4RPt3hKt3hKt3RVAQUXmMmUYASPxj0YqwVXtPDTBQjKt3hKt3hKt3hKtbVUGMVcvXEVwUkUiYWPP4RPH4hKPUDahcFLVkkdIckVoUEUhMUTWgkdUYjKA4FTYQWQrgkbUYTVtPDTtLjcwHFaIcUV2EDTtjDTt3hKt3hKt3hYS4xcwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hYwHFaIcUV2EDTtjDTt3hKt3hKtX1L14xYwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwTaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwDaIcUV2EDTtjDTt3hKt3hKt3haU4RPWwzcAAkKIAkKt3hKt3hKt3BQtDTaL0VQVoEcAAkKIAkKt3hKt3hKt3hKt3RaLwVRWk0cAAkKIAkKt3hKt3hKt31XtDjKTsVUrI1TQcEV5UULPcVSFo0ZvPEV1EjKt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "SonoBus",
+									"origin" : "SonoBus.vst3",
+									"type" : "VST3",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "SonoBus.vst3",
+										"plugindisplayname" : "SonoBus",
+										"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/SonoBus.vst3",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"sliderorder" : [  ],
+										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+										"blob" : "3076.VMjLgr+B...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HiL0DiKSgCagUWRTMVdEoWXOEjKtDDQBQUPIUETMEDTtHjZFkkKD4xPEAkUYwFMVkkdEY0X5giQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3BQt.UQpQUPvPjKAgDTZoVPP4xRT4RVqkEagsVTsgELYYjKwTjQgASUF4RPp4RPt3hKtXlLpgET3LjKPUjZTEDLD4RPHAkVpEDTtzDUtj0ZYEiXqQiQYcWUWgkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtPjKA4BUAkTUP0TPP4hPpYTVtPDTAUDTrIFMAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjcDUDTVQFcEYUXu0DahsVSWg0bAcTXuQSLY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPDEUPtUkUXg2cVgkdUwVXos1QisVSGMlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKt3hKtTETRUDUS4BQl4xaQYjKAYFTA8FMwj0YqwVXtf0UXIWUWkkKDAkPD4hKt3hK2rxJqjySt3RUPIUQTMkKDYlKuEkQtDzLPEzazXUX0QiUgUGMwDlcEwVXtf0UXIWUWkkKDAkPD4hKt3hKt3hKt3hKt3RUPIUQTMkKDYlKuEkQtDjbPEzazXUX0QiQhcFMVwjKXcEVxU0UY4BQPIDQt3hKt3hKt3hKqTmKtTETRUDUS4BQl4xaQYjKAIGTA8FMVEVczXjXmQCaL4BVWgkbUcUVtPDTBQjKt3hKt3hKt3xJO4hKUAkTEQ0TtPjYt7VTF4RPtDUPyUjUZQWRWkULUwlXnEkUXMWPG4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKSQETgc1ZrEFdUw1XqkTaXsFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPQTQ5YEVuQCahsVVWkEdIYTXqk0UYIWPlM1Y2Y0XqEDTtjDTt3hKt3haMokKxshKtPUPIUETMEDTtHjZFkkKDAEQEomUX8FMrI1ZYcUV3kjUgUWTVkkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjKEUjdVg0azvlXqk0UYgWRFIFdUYTVqcmUXQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKM4RPtPUPIUETMEDTtHjZFkkKD4BQEomUX8FMrI1ZYcUV3kTLh81aWkkKXcEVxU0UY4BQPIDQt3hKt3hdLkGS27jKtTETRUDUS4BQl4xaQYjKAYGTAMWQwHldqwVXyU0QisVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDA0PEomUXkWTWEVczDiX0cWLg4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWRWkUZYcUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWSWkEcQYUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP1AUPyUkQisFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPITQ5YUV5MlUX8FMF4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKOQETgsVTWoUdIcUVogCahoVUFkkKXcEVxU0UY4BQPIDQt3hKt3hKt3hKq7jKtTETRUDUS4BQl4xaQYjKA4FTAMWUFMldUYUX1giQtDSQFEFLUYjKAolKA4hKt3hKt3hKYEDQt.UQpQUPvPjKAgDTZoVPP4xSTYlXq0TLgQGMVkUZQcTXm0zQi4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UP4UEagoVSFo0YzvVXqcWLh4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP2.UP4UEagoVVVokbUYEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PEwzUYQWTVE1ZQcEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDAUPEI1UYoWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKlQ0ZMYUVzEkLPUGMrE1ZMYzXugCagkWPt3hKTQDY5kzUXMUTWgkdUYjKAIFTUkWUVUkZAcDU0kzQi4BQPETPt3hKt3hcP4VQrEVaUYEUvTjQgYDNrIVP2YTXtPDTtLDTTkEaEY0XxEUaTsVSwDFdQYkVzMVLSYWTWoUczDiXtPDTAEDQt3hKt3RTqkkUXAycFMlTUECV0kzQY8FMwjkQ3vlXyUjQi4BQPETPH4hKt3hKQsVVVgEL2YzXRUULXUWRGk0azDSVBslQikWPUkEdMUEVyEzQgsVPP4RQD4BQt3hKtPTUrk0YUcTX5kTUYkFNrIlZQQkV3EDTtjFU1sTUMcUV30jLKgGNrg0ZIczXqMWLKQDNwfELvXUVzEkLhUGSvDFc3vFTvzzQtL0cVokZUwlXSQiUXYWTvDVS3X0X4UkQtDDQ14hKpoVX1U0QiUTVrk0ZMYzX4EjKtDDT1AUcvXjX3UULhkGNrI1TQcEV5UkQtDjXPkEcEwFVxUkQY4BQP4xPPcjV3UULh4FNFElZAAkKIAkKt3hKt3hKt3BStrzUXo2ZwDlKDAkPD4hKt3hKt3hKt3BTmE0QicVSwnkKDAkPD4hKt3hKt3hKPIDT3UkQgsVQwH1ZAAkKIAkKt3hKt3hKt3RUt.iUXEWUVMlciYEVuQiQtDjZtDjKt3hKt3hKt.kKTgELQISXyUTLZsVUGIlKDAkKB4BTQMSPWgEcQYUV30TQicVTWkkKDYWPqQiUXg1cVkkZAAkKAwjKi4VRWkUdmESXxEkQtDjZtDjKt3hKt3hKt3TPxI1YQckV0EDTtjDTt3hKt3hKt3hKt3RQFMldEECVwEDTtjDTt3hKt3hKt3hK2rBRWkkbUYEV4UkQtDjZtDjKt3hKt3hKt7VPTE1YyYUVvDjLYc1ZrElKDAkPD4hKt3hKt3hKt3hKmU0QiUGLVgUbUY0X1EDTtDDRt3BSqYUXuE0UYgWSEM1YQcUVtPjcAsFMVgEZ2YUVpEDTtDDRtLlaIcUV4cVLgIWTF4RPp4RPt3hKt3hKt3hcqDmXmE0UZUWPP4RRP4hKt3hKt3hKtPjKEYzX5UTLXEWPP4RRP4hKt3hKPcVbGc1JHcUVxUkUXkWUF4RPp4RPt3hKt3hKt3RVAQUXmMmUYASPxj0YqwVXtPDTBQjKt3hKt3hKt3hKtbVUGMVcvXEVwUkUiYWPP4RPH4hKPUDahcFLVkkdIckVoUEUhMUTWgkdUYjKA4FTYQWQrgkbUYTVtPDTtLjcwHFaIcUV2EDTtjDTt3hKt3hKt3hYS4xcwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hYwHFaIcUV2EDTtjDTt3hKt3hKtX1L14xYwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwTaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwDaIcUV2EDTtjDTt3hKt3hKt3haU4RPWwzcAAkKIAkKt3hKt3hKt3BQtDTaL0VQVoEcAAkKIAkKt3hKt3hKt3hKt3RaLwVRWk0cAAkKIAkKt3hKt3hKt31XtDjKTsVUrI1TQcEV5UULPcVSFo0ZvPEV1EjKt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+									}
+,
+									"fileref" : 									{
+										"name" : "SonoBus",
+										"filename" : "SonoBus.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "f75530382719dc424a2031053d1b2235"
+									}
+
+								}
+ ]
+						}
+
 					}
 ,
 					"text" : "vst~",
@@ -241,7 +511,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.750101666666581, 322.5, 27.91658533333333, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 319.5, 34.916585333333387, 20.0 ],
+					"presentation_rect" : [ 185.0, 319.5, 34.916585333333387, 20.0 ],
 					"text" : "still"
 				}
 
@@ -254,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.5, 438.5, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.736195883928701, 271.5, 57.0, 20.0 ],
+					"presentation_rect" : [ 56.736195883928701, 271.5, 57.0, 20.0 ],
 					"text" : "intensity"
 				}
 
@@ -267,7 +537,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 297.083414666666613, 385.5, 38.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.446187339006826, 319.5, 34.916585333333387, 20.0 ],
+					"presentation_rect" : [ 121.446187339006826, 319.5, 34.916585333333387, 20.0 ],
 					"text" : "kick"
 				}
 
@@ -860,7 +1130,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 411.666686999999968, 344.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 393.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 185.0, 393.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -874,7 +1144,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 467.666686999999911, 344.5, 22.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 336.0, 50.0, 50.0 ]
+					"presentation_rect" : [ 185.0, 336.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -900,7 +1170,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 231.749999999999972, 409.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.446187339006826, 393.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 121.446187339006826, 393.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -914,7 +1184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 287.749999999999943, 409.0, 22.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.446187339006826, 336.0, 50.0, 50.0 ]
+					"presentation_rect" : [ 121.446187339006826, 336.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -1241,9 +1511,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1252,9 +1522,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1263,7 +1533,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1274,7 +1543,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1299,14 +1569,7 @@
 							}
 , 							{
 								"name" : "dUG Yello 01",
-								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"message" : 								{
+								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
@@ -1319,13 +1582,20 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
+								"newobj" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
+								"message" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1352,14 +1622,7 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-									"fontsize" : [ 10.0 ]
-								}
-,
-								"message" : 								{
+								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
@@ -1372,13 +1635,20 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 								}
 ,
-								"default" : 								{
+								"newobj" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+								}
+,
+								"message" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1406,7 +1676,6 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1416,7 +1685,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ]
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1893,8 +2163,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "bang", "bang", "" ],
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 70.0, 163.5, 79.5, 22.0 ],
 					"text" : "MiM_recieve"
 				}
@@ -1935,7 +2205,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.5, 344.5, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.736195883928701, 290.0, 50.0, 96.0 ],
+					"presentation_rect" : [ 56.736195883928701, 290.0, 50.0, 96.0 ],
 					"setminmax" : [ 0.0, 1.0 ]
 				}
 
@@ -1950,7 +2220,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 69.583414666666613, 462.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.736195883928701, 393.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 56.736195883928701, 393.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -2074,7 +2344,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 114.071428571428569, 196.0, 613.5, 196.0 ],
+					"midpoints" : [ 109.75, 196.0, 613.5, 196.0 ],
 					"source" : [ "obj-1", 4 ]
 				}
 
@@ -2090,7 +2360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 88.142857142857139, 196.0, 477.166686999999911, 196.0 ],
+					"midpoints" : [ 87.0625, 196.0, 477.166686999999911, 196.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -2118,8 +2388,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-107", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-109", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-109", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-109", 0 ]
 				}
 
 			}
@@ -2146,9 +2472,40 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-109", 0 ],
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"order" : 1,
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"order" : 0,
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 2,
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -2162,9 +2519,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"midpoints" : [ 665.129730000001359, 749.1875, 648.129730000001359, 749.1875, 648.129730000001359, 691.1875, 665.129730000001359, 691.1875 ],
 					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-117", 0 ]
 				}
 
 			}
@@ -2769,6 +3140,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"midpoints" : [ 547.129730000001359, 755.755126953125, 665.129730000001359, 755.755126953125 ],
 					"order" : 1,
@@ -2819,6 +3197,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-96", 0 ]
@@ -2847,6 +3239,7 @@
 			"obj-3" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-7" : [ "vst~[7]", "vst~[7]", 0 ],
 			"obj-75" : [ "live.text", "live.text", 0 ],
+			"obj-92" : [ "vst~[5]", "vst~[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2856,8 +3249,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MiM_recieve.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MiM/extras/MiM",
-				"patcherrelativepath" : "../extras/MiM",
+				"bootpath" : "~/Documents/Max 8/Packages/sensor_recorder/misc",
+				"patcherrelativepath" : "../../sensor_recorder/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2887,6 +3280,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/MiM/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SonoBus.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
@@ -2925,9 +3325,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2936,9 +3336,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2947,7 +3347,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -2958,7 +3357,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2983,14 +3383,7 @@
 			}
 , 			{
 				"name" : "dUG Yello 01",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"message" : 				{
+				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
@@ -3003,13 +3396,20 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"default" : 				{
+				"newobj" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3036,14 +3436,7 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"message" : 				{
+				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
@@ -3056,13 +3449,20 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
-				"default" : 				{
+				"newobj" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"message" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3090,7 +3490,6 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3100,7 +3499,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ]
+					"fontsize" : [ 9.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

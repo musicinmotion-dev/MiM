@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 294.0, 74.0, 460.0, 820.0 ],
+		"rect" : [ 58.0, 79.0, 461.0, 811.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,16 +40,76 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"autosave" : 0,
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"id" : "obj-117",
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 102.0, 649.0, 395.166687000000024, 272.255127000000016 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.736195883928701, 430.0, 436.64603878273789, 276.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[1]",
+							"parameter_shortname" : "vst~[7]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"autosave" : 0,
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "vst~",
+					"varname" : "vst~[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 342.0, 548.0, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1154.0, 74.904083757812487, 37.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.736195883928701, 353.5, 37.0, 23.0 ],
-					"text" : "clear"
+					"patching_rect" : [ 497.0, 540.0, 35.0, 22.0 ],
+					"text" : "none"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 480.0, 509.0, 90.0, 22.0 ],
+					"text" : "loadmess none"
 				}
 
 			}
@@ -198,7 +258,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-107",
-					"items" : [ "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus" ],
+					"items" : [ "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus", ",", "Mikron Cascade", ",", "SonoBus" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -337,106 +397,6 @@
 					"showname" : 0,
 					"textcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 1.0 ],
 					"varname" : "live.gain~[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 102.0, 649.0, 395.166687000000024, 272.255127000000016 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.736195883928701, 436.0, 436.64603878273789, 264.255126953125 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~[7]",
-							"parameter_shortname" : "vst~[7]",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"bypass" : 1,
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "SonoBus.vst3",
-							"plugindisplayname" : "SonoBus",
-							"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/SonoBus.vst3",
-							"pluginsaveduniqueid" : 0,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"sliderorder" : [  ],
-							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "3076.VMjLgr+B...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HiL0DiKSgCagUWRTMVdEoWXOEjKtDDQBQUPIUETMEDTtHjZFkkKD4xPEAkUYwFMVkkdEY0X5giQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3BQt.UQpQUPvPjKAgDTZoVPP4xRT4RVqkEagsVTsgELYYjKwTjQgASUF4RPp4RPt3hKtXlLpgET3LjKPUjZTEDLD4RPHAkVpEDTtzDUtj0ZYEiXqQiQYcWUWgkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtPjKA4BUAkTUP0TPP4hPpYTVtPDTAUDTrIFMAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjcDUDTVQFcEYUXu0DahsVSWg0bAcTXuQSLY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPDEUPtUkUXg2cVgkdUwVXos1QisVSGMlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKt3hKtTETRUDUS4BQl4xaQYjKAYFTA8FMwj0YqwVXtf0UXIWUWkkKDAkPD4hKt3hK2rxJqjySt3RUPIUQTMkKDYlKuEkQtDzLPEzazXUX0QiUgUGMwDlcEwVXtf0UXIWUWkkKDAkPD4hKt3hKt3hKt3hKt3RUPIUQTMkKDYlKuEkQtDjbPEzazXUX0QiQhcFMVwjKXcEVxU0UY4BQPIDQt3hKt3hKt3hKqTmKtTETRUDUS4BQl4xaQYjKAIGTA8FMVEVczXjXmQCaL4BVWgkbUcUVtPDTBQjKt3hKt3hKt3xJO4hKUAkTEQ0TtPjYt7VTF4RPtDUPyUjUZQWRWkULUwlXnEkUXMWPG4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKSQETgc1ZrEFdUw1XqkTaXsFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPQTQ5YEVuQCahsVVWkEdIYTXqk0UYIWPlM1Y2Y0XqEDTtjDTt3hKt3haMokKxshKtPUPIUETMEDTtHjZFkkKDAEQEomUX8FMrI1ZYcUV3kjUgUWTVkkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjKEUjdVg0azvlXqk0UYgWRFIFdUYTVqcmUXQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKM4RPtPUPIUETMEDTtHjZFkkKD4BQEomUX8FMrI1ZYcUV3kTLh81aWkkKXcEVxU0UY4BQPIDQt3hKt3hdLkGS27jKtTETRUDUS4BQl4xaQYjKAYGTAMWQwHldqwVXyU0QisVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDA0PEomUXkWTWEVczDiX0cWLg4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWRWkUZYcUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWSWkEcQYUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP1AUPyUkQisFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPITQ5YUV5MlUX8FMF4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKOQETgsVTWoUdIcUVogCahoVUFkkKXcEVxU0UY4BQPIDQt3hKt3hKt3hKq7jKtTETRUDUS4BQl4xaQYjKA4FTAMWUFMldUYUX1giQtDSQFEFLUYjKAolKA4hKt3hKt3hKYEDQt.UQpQUPvPjKAgDTZoVPP4xSTYlXq0TLgQGMVkUZQcTXm0zQi4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UP4UEagoVSFo0YzvVXqcWLh4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP2.UP4UEagoVVVokbUYEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PEwzUYQWTVE1ZQcEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDAUPEI1UYoWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKlQ0ZMYUVzEkLPUGMrE1ZMYzXugCagkWPt3hKTQDY5kzUXMUTWgkdUYjKAIFTUkWUVUkZAcDU0kzQi4BQPETPt3hKt3hcP4VQrEVaUYEUvTjQgYDNrIVP2YTXtPDTtLDTTkEaEY0XxEUaTsVSwDFdQYkVzMVLSYWTWoUczDiXtPDTAEDQt3hKt3RTqkkUXAycFMlTUECV0kzQY8FMwjkQ3vlXyUjQi4BQPETPH4hKt3hKQsVVVgEL2YzXRUULXUWRGk0azDSVBslQikWPUkEdMUEVyEzQgsVPP4RQD4BQt3hKtPTUrk0YUcTX5kTUYkFNrIlZQQkV3EDTtjFU1sTUMcUV30jLKgGNrg0ZIczXqMWLKQDNwfELvXUVzEkLhUGSvDFc3vFTvzzQtL0cVokZUwlXSQiUXYWTvDVS3X0X4UkQtDDQ14hKpoVX1U0QiUTVrk0ZMYzX4EjKtDDT1AUcvXjX3UULhkGNrI1TQcEV5UkQtDjXPkEcEwFVxUkQY4BQP4xPPcjV3UULh4FNFElZAAkKIAkKt3hKt3hKt3BStrzUXo2ZwDlKDAkPD4hKt3hKt3hKt3BTmE0QicVSwnkKDAkPD4hKt3hKt3hKPIDT3UkQgsVQwH1ZAAkKIAkKt3hKt3hKt3RUt.iUXEWUVMlciYEVuQiQtDjZtDjKt3hKt3hKt.kKTgELQISXyUTLZsVUGIlKDAkKB4BTQMSPWgEcQYUV30TQicVTWkkKDYWPqQiUXg1cVkkZAAkKAwjKi4VRWkUdmESXxEkQtDjZtDjKt3hKt3hKt3TPxI1YQckV0EDTtjDTt3hKt3hKt3hKt3RQFMldEECVwEDTtjDTt3hKt3hKt3hK2rBRWkkbUYEV4UkQtDjZtDjKt3hKt3hKt7VPTE1YyYUVvDjLYc1ZrElKDAkPD4hKt3hKt3hKt3hKmU0QiUGLVgUbUY0X1EDTtDDRt3BSqYUXuE0UYgWSEM1YQcUVtPjcAsFMVgEZ2YUVpEDTtDDRtLlaIcUV4cVLgIWTF4RPp4RPt3hKt3hKt3hcqDmXmE0UZUWPP4RRP4hKt3hKt3hKtPjKEYzX5UTLXEWPP4RRP4hKt3hKPcVbGc1JHcUVxUkUXkWUF4RPp4RPt3hKt3hKt3RVAQUXmMmUYASPxj0YqwVXtPDTBQjKt3hKt3hKt3hKtbVUGMVcvXEVwUkUiYWPP4RPH4hKPUDahcFLVkkdIckVoUEUhMUTWgkdUYjKA4FTYQWQrgkbUYTVtPDTtLjcwHFaIcUV2EDTtjDTt3hKt3hKt3hYS4xcwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hYwHFaIcUV2EDTtjDTt3hKt3hKtX1L14xYwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwTaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwDaIcUV2EDTtjDTt3hKt3hKt3haU4RPWwzcAAkKIAkKt3hKt3hKt3BQtDTaL0VQVoEcAAkKIAkKt3hKt3hKt3hKt3RaLwVRWk0cAAkKIAkKt3hKt3hKt31XtDjKTsVUrI1TQcEV5UULPcVSFo0ZvPEV1EjKt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "SonoBus",
-									"origin" : "SonoBus.vst3",
-									"type" : "VST3",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "SonoBus.vst3",
-										"plugindisplayname" : "SonoBus",
-										"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/SonoBus.vst3",
-										"pluginsaveduniqueid" : 0,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"sliderorder" : [  ],
-										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "3076.VMjLgr+B...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HiL0DiKSgCagUWRTMVdEoWXOEjKtDDQBQUPIUETMEDTtHjZFkkKD4xPEAkUYwFMVkkdEY0X5giQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3BQt.UQpQUPvPjKAgDTZoVPP4xRT4RVqkEagsVTsgELYYjKwTjQgASUF4RPp4RPt3hKtXlLpgET3LjKPUjZTEDLD4RPHAkVpEDTtzDUtj0ZYEiXqQiQYcWUWgkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtPjKA4BUAkTUP0TPP4hPpYTVtPDTAUDTrIFMAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjcDUDTVQFcEYUXu0DahsVSWg0bAcTXuQSLY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPDEUPtUkUXg2cVgkdUwVXos1QisVSGMlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKt3hKtTETRUDUS4BQl4xaQYjKAYFTA8FMwj0YqwVXtf0UXIWUWkkKDAkPD4hKt3hK2rxJqjySt3RUPIUQTMkKDYlKuEkQtDzLPEzazXUX0QiUgUGMwDlcEwVXtf0UXIWUWkkKDAkPD4hKt3hKt3hKt3hKt3RUPIUQTMkKDYlKuEkQtDjbPEzazXUX0QiQhcFMVwjKXcEVxU0UY4BQPIDQt3hKt3hKt3hKqTmKtTETRUDUS4BQl4xaQYjKAIGTA8FMVEVczXjXmQCaL4BVWgkbUcUVtPDTBQjKt3hKt3hKt3xJO4hKUAkTEQ0TtPjYt7VTF4RPtDUPyUjUZQWRWkULUwlXnEkUXMWPG4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKSQETgc1ZrEFdUw1XqkTaXsFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPQTQ5YEVuQCahsVVWkEdIYTXqk0UYIWPlM1Y2Y0XqEDTtjDTt3hKt3haMokKxshKtPUPIUETMEDTtHjZFkkKDAEQEomUX8FMrI1ZYcUV3kjUgUWTVkkbAY1XmcmUisVPP4RRP4hKt3hKt3hKtbyJt3BUAkTUP0TPP4hPpYTVtPjKEUjdVg0azvlXqk0UYgWRFIFdUYTVqcmUXQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKM4RPtPUPIUETMEDTtHjZFkkKD4BQEomUX8FMrI1ZYcUV3kTLh81aWkkKXcEVxU0UY4BQPIDQt3hKt3hdLkGS27jKtTETRUDUS4BQl4xaQYjKAYGTAMWQwHldqwVXyU0QisVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDA0PEomUXkWTWEVczDiX0cWLg4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWRWkUZYcUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UPyUTLhoWSWkEcQYUXvD0UY4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP1AUPyUkQisFMVgEZ2YUVpEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQPITQ5YUV5MlUX8FMF4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKOQETgsVTWoUdIcUVogCahoVUFkkKXcEVxU0UY4BQPIDQt3hKt3hKt3hKq7jKtTETRUDUS4BQl4xaQYjKA4FTAMWUFMldUYUX1giQtDSQFEFLUYjKAolKA4hKt3hKt3hKYEDQt.UQpQUPvPjKAgDTZoVPP4xSTYlXq0TLgQGMVkUZQcTXm0zQi4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RPy.UP4UEagoVSFo0YzvVXqcWLh4BVWgkbUcUVtPDTBQjKt3hKt3hKt3hKt3hKUAkTEQ0TtPjYt7VTF4RP2.UP4UEagoVVVokbUYEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PEwzUYQWTVE1ZQcEVvDkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDAUPEI1UYoWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKlQ0ZMYUVzEkLPUGMrE1ZMYzXugCagkWPt3hKTQDY5kzUXMUTWgkdUYjKAIFTUkWUVUkZAcDU0kzQi4BQPETPt3hKt3hcP4VQrEVaUYEUvTjQgYDNrIVP2YTXtPDTtLDTTkEaEY0XxEUaTsVSwDFdQYkVzMVLSYWTWoUczDiXtPDTAEDQt3hKt3RTqkkUXAycFMlTUECV0kzQY8FMwjkQ3vlXyUjQi4BQPETPH4hKt3hKQsVVVgEL2YzXRUULXUWRGk0azDSVBslQikWPUkEdMUEVyEzQgsVPP4RQD4BQt3hKtPTUrk0YUcTX5kTUYkFNrIlZQQkV3EDTtjFU1sTUMcUV30jLKgGNrg0ZIczXqMWLKQDNwfELvXUVzEkLhUGSvDFc3vFTvzzQtL0cVokZUwlXSQiUXYWTvDVS3X0X4UkQtDDQ14hKpoVX1U0QiUTVrk0ZMYzX4EjKtDDT1AUcvXjX3UULhkGNrI1TQcEV5UkQtDjXPkEcEwFVxUkQY4BQP4xPPcjV3UULh4FNFElZAAkKIAkKt3hKt3hKt3BStrzUXo2ZwDlKDAkPD4hKt3hKt3hKt3BTmE0QicVSwnkKDAkPD4hKt3hKt3hKPIDT3UkQgsVQwH1ZAAkKIAkKt3hKt3hKt3RUt.iUXEWUVMlciYEVuQiQtDjZtDjKt3hKt3hKt.kKTgELQISXyUTLZsVUGIlKDAkKB4BTQMSPWgEcQYUV30TQicVTWkkKDYWPqQiUXg1cVkkZAAkKAwjKi4VRWkUdmESXxEkQtDjZtDjKt3hKt3hKt3TPxI1YQckV0EDTtjDTt3hKt3hKt3hKt3RQFMldEECVwEDTtjDTt3hKt3hKt3hK2rBRWkkbUYEV4UkQtDjZtDjKt3hKt3hKt7VPTE1YyYUVvDjLYc1ZrElKDAkPD4hKt3hKt3hKt3hKmU0QiUGLVgUbUY0X1EDTtDDRt3BSqYUXuE0UYgWSEM1YQcUVtPjcAsFMVgEZ2YUVpEDTtDDRtLlaIcUV4cVLgIWTF4RPp4RPt3hKt3hKt3hcqDmXmE0UZUWPP4RRP4hKt3hKt3hKtPjKEYzX5UTLXEWPP4RRP4hKt3hKPcVbGc1JHcUVxUkUXkWUF4RPp4RPt3hKt3hKt3RVAQUXmMmUYASPxj0YqwVXtPDTBQjKt3hKt3hKt3hKtbVUGMVcvXEVwUkUiYWPP4RPH4hKPUDahcFLVkkdIckVoUEUhMUTWgkdUYjKA4FTYQWQrgkbUYTVtPDTtLjcwHFaIcUV2EDTtjDTt3hKt3hKt3hYS4xcwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hYwHFaIcUV2EDTtjDTt3hKt3hKtX1L14xYwHVaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwTaEYkVzEDTtjDTt3hKt3hKt3hKt3hKWwDaIcUV2EDTtjDTt3hKt3hKt3haU4RPWwzcAAkKIAkKt3hKt3hKt3BQtDTaL0VQVoEcAAkKIAkKt3hKt3hKt3hKt3RaLwVRWk0cAAkKIAkKt3hKt3hKt31XtDjKTsVUrI1TQcEV5UULPcVSFo0ZvPEV1EjKt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
-									}
-,
-									"fileref" : 									{
-										"name" : "SonoBus",
-										"filename" : "SonoBus.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "f75530382719dc424a2031053d1b2235"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "vst~",
-					"varname" : "vst~",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -658,7 +618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 666.129730000001359, 686.6875, 69.0, 18.0 ],
+					"patching_rect" : [ 666.129730000001359, 672.1875, 69.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.2360444166668, 147.0, 69.0, 18.0 ],
 					"text" : "input"
@@ -673,7 +633,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.629730000001359, 686.6875, 69.0, 18.0 ],
+					"patching_rect" : [ 816.629730000001359, 672.1875, 69.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.2360444166668, 165.0, 69.0, 18.0 ],
 					"text" : "output"
@@ -852,7 +812,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 537.629730000001359, 738.1875, 20.0, 20.0 ]
+					"patching_rect" : [ 537.629730000001359, 748.652616441249847, 20.0, 20.0 ]
 				}
 
 			}
@@ -904,13 +864,13 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-100",
-					"items" : [ "None", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Externa hörlurar", ",", "Högtalare i MacBook Pro", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 806.129730000001359, 701.1875, 127.0, 20.0 ],
+					"patching_rect" : [ 806.129730000001359, 686.6875, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.64531541666679, 164.0, 115.139549000000002, 20.0 ],
 					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
@@ -935,7 +895,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 655.629730000001359, 701.1875, 127.0, 20.0 ],
+					"patching_rect" : [ 655.629730000001359, 686.6875, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 332.64531541666679, 146.0, 115.139549000000002, 20.0 ],
 					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
@@ -952,7 +912,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 806.129730000001359, 722.1875, 90.0, 20.0 ],
+					"patching_rect" : [ 806.129730000001359, 707.6875, 90.0, 20.0 ],
 					"text" : "adstatus option 1"
 				}
 
@@ -967,7 +927,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 655.629730000001359, 722.1875, 90.0, 20.0 ],
+					"patching_rect" : [ 655.629730000001359, 707.6875, 90.0, 20.0 ],
 					"text" : "adstatus option 0"
 				}
 
@@ -1460,7 +1420,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 119.0, 225.0, 167.0 ],
+									"patching_rect" : [ 30.0, 119.0, 226.0, 167.0 ],
 									"text" : "MIDI to CC let's you send motion data via MIDI control messages to any DAW or other software that can be controlled by MIDI CC messages. \n\nSet midichannel and CC number for each gesture you what to send, when programming for instance Ableton sen one gesture at a time when programming in Ableton. This is done by selecting appropriate solo channel.\n"
 								}
 
@@ -1511,9 +1471,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1522,9 +1482,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontname" : [ "Arial Bold" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1533,7 +1493,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1543,8 +1502,9 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1569,9 +1529,7 @@
 							}
 , 							{
 								"name" : "dUG Yello 01",
-								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
+								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1582,30 +1540,32 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-								}
-,
-								"message" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -1622,9 +1582,7 @@
 							}
 , 							{
 								"name" : "dUG Yello 01-1",
-								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
+								"message" : 								{
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1635,30 +1593,32 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+									"fontface" : [ 1 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"fontface" : [ 1 ],
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 10.0 ],
-									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-								}
-,
-								"message" : 								{
+									"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-										"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39,
-										"autogradient" : 0
-									}
-,
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -1685,8 +1645,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1740,8 +1700,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2266,20 +2226,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 545.0, 290.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 96.441193066964274, 555.6275634765625, 267.2360444166668, 33.0 ],
-					"text" : "drag VST~ plug-in here!"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"angle" : 270.0,
 					"arrow_orientation" : 1,
 					"background" : 1,
@@ -2383,6 +2329,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-101", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-101", 0 ]
 				}
 
 			}
@@ -2512,14 +2472,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
-					"midpoints" : [ 815.629730000001359, 749.1875, 800.629730000001359, 749.1875, 800.629730000001359, 691.1875, 815.629730000001359, 691.1875 ],
+					"midpoints" : [ 815.629730000001359, 734.6875, 800.629730000001359, 734.6875, 800.629730000001359, 676.6875, 815.629730000001359, 676.6875 ],
+					"order" : 0,
 					"source" : [ "obj-113", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-91", 0 ],
+					"midpoints" : [ 815.629730000001359, 734.706320106983185, 547.129730000001359, 734.706320106983185 ],
+					"order" : 1,
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -2527,15 +2497,18 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
-					"midpoints" : [ 665.129730000001359, 749.1875, 648.129730000001359, 749.1875, 648.129730000001359, 691.1875, 665.129730000001359, 691.1875 ],
+					"midpoints" : [ 665.129730000001359, 734.6875, 648.129730000001359, 734.6875, 648.129730000001359, 676.6875, 665.129730000001359, 676.6875 ],
+					"order" : 0,
 					"source" : [ "obj-116", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-117", 0 ]
+					"destination" : [ "obj-91", 0 ],
+					"midpoints" : [ 665.129730000001359, 734.576207935810089, 547.129730000001359, 734.576207935810089 ],
+					"order" : 1,
+					"source" : [ "obj-116", 0 ]
 				}
 
 			}
@@ -2570,7 +2543,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-128", 0 ]
 				}
 
@@ -2584,7 +2557,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2651,6 +2624,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -2740,7 +2720,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -2805,7 +2785,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -2849,7 +2829,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -2886,7 +2866,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2900,7 +2880,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -2979,7 +2959,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -3031,20 +3011,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"source" : [ "obj-7", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -3125,6 +3091,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 176.166686999999968, 107.0, 147.0, 107.0, 147.0, 157.0, 79.5, 157.0 ],
 					"source" : [ "obj-88", 0 ]
@@ -3148,7 +3121,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 547.129730000001359, 755.755126953125, 665.129730000001359, 755.755126953125 ],
+					"midpoints" : [ 547.129730000001359, 780.252580240368843, 665.129730000001359, 780.252580240368843 ],
 					"order" : 1,
 					"source" : [ "obj-91", 0 ]
 				}
@@ -3173,7 +3146,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"midpoints" : [ 547.129730000001359, 776.1875, 770.129730000001359, 776.1875 ],
+					"midpoints" : [ 547.129730000001359, 780.063469052314758, 770.129730000001359, 780.063469052314758 ],
 					"order" : 0,
 					"source" : [ "obj-91", 0 ]
 				}
@@ -3182,7 +3155,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
-					"midpoints" : [ 547.129730000001359, 777.1875, 665.129730000001359, 777.1875 ],
+					"midpoints" : [ 547.129730000001359, 780.608707413077354, 665.129730000001359, 780.608707413077354 ],
 					"order" : 2,
 					"source" : [ "obj-91", 0 ]
 				}
@@ -3235,9 +3208,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-101" : [ "vst~[1]", "vst~[7]", 0 ],
 			"obj-128" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-3" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-7" : [ "vst~[7]", "vst~[7]", 0 ],
 			"obj-75" : [ "live.text", "live.text", 0 ],
 			"obj-92" : [ "vst~[5]", "vst~[1]", 0 ],
 			"parameterbanks" : 			{
@@ -3283,13 +3256,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SonoBus.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pipo.mxo",
 				"type" : "iLaX"
 			}
@@ -3325,9 +3291,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3336,9 +3302,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3347,7 +3313,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3357,8 +3322,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3383,9 +3349,7 @@
 			}
 , 			{
 				"name" : "dUG Yello 01",
-				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
+				"message" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3396,30 +3360,32 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -3436,9 +3402,7 @@
 			}
 , 			{
 				"name" : "dUG Yello 01-1",
-				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
+				"message" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3449,30 +3413,32 @@
 						"autogradient" : 0
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
-				}
-,
-				"message" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -3499,8 +3465,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3554,8 +3520,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

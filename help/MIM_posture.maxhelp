@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 71.0, 99.0, 657.0, 683.0 ],
+		"rect" : [ 80.0, 288.0, 657.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -111,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.749968999999993, 611.0, 154.125, 33.0 ],
+					"patching_rect" : [ 80.749968999999993, 611.0, 155.0, 33.0 ],
 					"text" : "0.000024 0.049284 0.008764 0.130594 0.811288 0.000047"
 				}
 
@@ -239,9 +239,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 453.0, 19.0, 159.0, 101.163749999999993 ],
-					"pic" : "Macintosh HD:/Users/robert/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/media/MiM-logo.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 313.048819999999978, 64.378749999999997, 133.0, 84.621250000000003 ]
+					"pic" : "Macintosh HD:/Users/robert/Dropbox/Min Mac (MBPsomtorRobert.lan)/Documents/Max 8/Packages/MiM/media/MiM-logo.png"
 				}
 
 			}
@@ -432,7 +430,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 45.499969, 603.0, 225.374968999999993, 603.0 ],
+					"midpoints" : [ 45.499969, 603.0, 226.249968999999993, 603.0 ],
 					"order" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
@@ -470,7 +468,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "MIM_posture.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MiM/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

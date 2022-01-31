@@ -48,8 +48,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1066.960074500000246, 798.505126953125, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.587684796874896, 5.5, 52.0, 20.0 ],
-					"text" : "unit info"
+					"presentation_rect" : [ 251.587684796874896, 5.5, 67.0, 20.0 ],
+					"text" : "device info"
 				}
 
 			}

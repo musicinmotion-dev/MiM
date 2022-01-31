@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 493.0, 30.0, 30.0 ]
+					"patching_rect" : [ 280.0, 493.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -85,7 +85,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 483.0, 30.0, 30.0 ]
+					"patching_rect" : [ 98.0, 493.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 384.0, 48.0, 22.0 ],
+					"patching_rect" : [ 98.0, 384.0, 48.0, 22.0 ],
 					"text" : "pak f f f"
 				}
 
@@ -225,8 +225,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
